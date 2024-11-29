@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "module": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nodemon": "^3.1.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  }
+}
+
